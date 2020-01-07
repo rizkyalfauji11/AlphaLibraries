@@ -20,8 +20,8 @@ class SampleAdapter(
 
     inner class ViewHolder(view: View) : AlphaRecyclerViewHolder<SampleModel>(view) {
         private val textSample = view.textSample
+
         override fun initialComponent(data: SampleModel) {
-            super.initialComponent(data)
             textSample.text = data.name
         }
     }
