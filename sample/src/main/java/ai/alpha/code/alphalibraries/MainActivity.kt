@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val dataList = mutableListOf<SampleModel>()
         val adapter = SampleAdapter(dataList, R.layout.item_sample) {
-
+            Log.e("Data", it?.name)
         }
 
         rvSample.adapter = adapter
