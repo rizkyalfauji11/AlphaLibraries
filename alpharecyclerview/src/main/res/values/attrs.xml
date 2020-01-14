@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alphaSpinnerStyle" format="reference" />
+
+    <declare-styleable name="AlphaProgressBar">
+        <attr name="AlphaProgress_Style">
+            <enum name="ThreeBounce" value="0" />
+        </attr>
+        <attr name="AlphaProgress_Color" format="color" />
+    </declare-styleable>
+</resources>
